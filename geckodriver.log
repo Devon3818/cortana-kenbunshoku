@@ -1,0 +1,1412 @@
+1549863439840	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.raGU0r4gKreU"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /Users/devon which is owned by devon.)
+1549863656378	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.J1dXevRh27uB"
+1549863659309	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549863659311	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549863659584	Marionette	TRACE	Received observer notification profile-after-change
+1549863660221	Marionette	TRACE	Received observer notification command-line-startup
+1549863660221	Marionette	TRACE	Received observer notification nsPref:changed
+1549863660222	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549863661459	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1549863664891	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1549863664891	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1549863665551	Marionette	TRACE	All scripts recorded.
+1549863665552	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549863665552	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549863665552	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549863665552	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549863665553	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549863665555	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549863665556	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549863665556	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549863665556	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549863665556	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549863665557	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549863665558	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549863665558	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549863665558	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549863665558	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549863665558	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549863665558	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549863665559	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549863665559	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549863665560	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549863665560	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549863665560	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549863665562	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549863665563	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549863665563	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549863665563	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549863665670	Marionette	INFO	Listening on port 52394
+1549863665670	Marionette	DEBUG	Remote service is active
+1549863665774	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:52492
+1549863665793	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1549863665794	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549863665866	Marionette	TRACE	[4294967297] Frame script loaded
+1549863665882	Marionette	TRACE	[4294967297] Frame script registered
+1549863665906	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"df70c624-706e-2f47-b038-24cd587b8383","capabilities":{"browserName":"firefox","browserVersion":"65.0" ... ozprofile.J1dXevRh27uB","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1549863665992	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"pageLoad":10000}]
+1549863665993	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1549863666393	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549863666404	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1549863668500	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+1549863676845	Marionette	DEBUG	0 <- [1,3,{"error":"timeout","message":"Timeout loading page after 10000ms","stacktrace":"WebDriverError@chrome://marionette/conte ... 9:5\nTimeoutError@chrome://marionette/content/error.js:446:5\nnotify@chrome://marionette/content/listener.js:339:13\n"},null]
+1549863676894	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549863676939	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549863677384	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/1/
+1549863677384	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+1549863684092	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549863686578	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/1/
+1549863686580	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1549863686587	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetPageSource",{}]
+1549863686599	Marionette	DEBUG	0 <- [1,5,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1549863774792	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1TA3eK1dxONX"
+1549863775989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549863775989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549863776189	Marionette	TRACE	Received observer notification profile-after-change
+1549863776359	Marionette	TRACE	Received observer notification command-line-startup
+1549863776360	Marionette	TRACE	Received observer notification nsPref:changed
+1549863776360	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549863776588	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1549863778063	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1549863778063	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1549863778548	Marionette	TRACE	All scripts recorded.
+1549863778551	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549863778551	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549863778552	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549863778552	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549863778554	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549863778554	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549863778555	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549863778555	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549863778555	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549863778555	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549863778556	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549863778559	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549863778559	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549863778559	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549863778559	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549863778559	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549863778559	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549863778560	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549863778561	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549863778561	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549863778561	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549863778561	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549863778562	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549863778562	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549863778562	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549863778562	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549863778624	Marionette	INFO	Listening on port 52585
+1549863778624	Marionette	DEBUG	Remote service is active
+1549863778693	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:52633
+1549863778711	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1549863778711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549863778785	Marionette	TRACE	[4294967297] Frame script loaded
+1549863778793	Marionette	TRACE	[4294967297] Frame script registered
+1549863778815	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"bde3553d-d457-e54c-9cf4-094235eca31b","capabilities":{"browserName":"firefox","browserVersion":"65.0" ... ozprofile.1TA3eK1dxONX","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1549863778859	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"pageLoad":10000}]
+1549863778860	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1549863779271	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549863779282	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1549863779552	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+1549863782489	Marionette	DEBUG	Closed connection 0
+1549863782647	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1549863782648	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1549863782648	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1549863782648	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1549863782648	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1549863782649	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1549863782649	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1549863782649	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1549863782650	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1549863782650	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1549863782651	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1549863782651	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1549863782651	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1549863782651	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1549863782651	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1549863782651	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1549863782651	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1549863782652	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1549863782652	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1549863782652	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1549863782652	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1549863782652	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1549863782652	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1549863782653	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1549863782653	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1549863782653	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1549863782653	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1549863782654	Marionette	INFO	Stopped listening on port 52394
+1549863782654	Marionette	DEBUG	Remote service is inactive
+1549863784020	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549863784895	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/1/
+1549863784899	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1549863784913	Marionette	DEBUG	0 -> [0,4,"WebDriver:GetPageSource",{}]
+1549863784957	Marionette	DEBUG	0 <- [1,4,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549863809505	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qTxuaOGQn1mK"
+1549863810344	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549863810347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549863810513	Marionette	TRACE	Received observer notification profile-after-change
+1549863810697	Marionette	TRACE	Received observer notification command-line-startup
+1549863810698	Marionette	TRACE	Received observer notification nsPref:changed
+1549863810698	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549863810924	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1549863812478	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1549863812478	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1549863812841	Marionette	TRACE	All scripts recorded.
+1549863812841	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549863812842	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549863812842	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549863812842	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549863812842	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549863812843	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549863812843	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549863812843	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549863812843	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549863812843	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549863812844	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549863812844	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549863812844	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549863812844	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549863812844	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549863812845	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549863812845	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549863812845	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549863812845	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549863812845	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549863812845	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549863812845	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549863812845	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549863812846	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549863812846	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549863812846	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549863812890	Marionette	INFO	Listening on port 52706
+1549863812890	Marionette	DEBUG	Remote service is active
+1549863812898	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:52746
+1549863812923	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1549863812927	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549863813002	Marionette	TRACE	[4294967297] Frame script loaded
+1549863813012	Marionette	TRACE	[4294967297] Frame script registered
+1549863813021	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"6a6fa1d9-b2ac-3d4b-9dcb-bd3e5eb1642d","capabilities":{"browserName":"firefox","browserVersion":"65.0" ... ozprofile.qTxuaOGQn1mK","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1549863813061	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"pageLoad":10000}]
+1549863813062	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1549863813403	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549863813411	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1549863814245	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+1549863820441	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549863823416	Marionette	DEBUG	0 <- [1,3,{"error":"timeout","message":"Timeout loading page after 10000ms","stacktrace":"WebDriverError@chrome://marionette/conte ... 9:5\nTimeoutError@chrome://marionette/content/error.js:446:5\nnotify@chrome://marionette/content/listener.js:339:13\n"},null]
+1549863823434	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549863823440	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/1/
+1549863823562	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/1/
+1549863823563	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+1549863833464	Marionette	DEBUG	0 <- [1,4,{"error":"timeout","message":"Timeout loading page after 10000ms","stacktrace":"WebDriverError@chrome://marionette/conte ... 9:5\nTimeoutError@chrome://marionette/content/error.js:446:5\nnotify@chrome://marionette/content/listener.js:339:13\n"},null]
+1549863833476	Marionette	DEBUG	0 -> [0,5,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549863833513	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549863833958	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/1/
+1549863833961	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+1549863834098	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549863835506	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/1/
+1549863835513	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1549863835522	Marionette	DEBUG	0 -> [0,6,"WebDriver:GetPageSource",{}]
+1549863835530	Marionette	DEBUG	0 <- [1,6,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+1549864609467	Marionette	DEBUG	Closed connection 0
+1549864609694	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1549864609695	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1549864609695	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1549864609695	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1549864609695	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1549864609696	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1549864609696	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1549864609696	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1549864609697	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1549864609697	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1549864609698	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1549864609698	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1549864609698	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1549864609698	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1549864609698	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1549864609698	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1549864609699	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1549864609699	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1549864609699	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1549864609699	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1549864609699	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1549864609699	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1549864609699	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1549864609699	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1549864609700	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1549864609700	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1549864609700	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1549864609700	Marionette	INFO	Stopped listening on port 52706
+1549864609700	Marionette	DEBUG	Remote service is inactive
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+1549864613930	Marionette	DEBUG	Closed connection 0
+1549864614030	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1549864614030	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1549864614030	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1549864614031	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1549864614031	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1549864614031	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1549864614031	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1549864614031	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1549864614032	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1549864614032	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1549864614032	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1549864614032	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1549864614033	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1549864614033	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1549864614033	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1549864614033	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1549864614033	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1549864614033	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1549864614034	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1549864614034	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1549864614034	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1549864614034	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1549864614034	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1549864614034	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1549864614034	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1549864614034	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1549864614034	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1549864614035	Marionette	INFO	Stopped listening on port 52585
+1549864614035	Marionette	DEBUG	Remote service is inactive
+1549864680284	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9vljYhVD59Sl"
+1549864681215	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549864681217	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549864681425	Marionette	TRACE	Received observer notification profile-after-change
+1549864681679	Marionette	TRACE	Received observer notification command-line-startup
+1549864681679	Marionette	TRACE	Received observer notification nsPref:changed
+1549864681679	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549864681920	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1549864683464	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1549864683464	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1549864683867	Marionette	TRACE	All scripts recorded.
+1549864683868	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549864683868	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549864683868	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549864683869	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549864683869	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549864683870	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549864683870	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549864683870	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549864683871	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549864683871	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549864683871	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549864683872	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549864683872	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549864683872	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549864683873	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549864683873	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549864683873	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549864683874	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549864683874	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549864683874	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549864683874	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549864683874	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549864683874	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549864683874	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549864683875	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549864683875	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549864683922	Marionette	INFO	Listening on port 53000
+1549864683922	Marionette	DEBUG	Remote service is active
+1549864684019	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53045
+1549864684021	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1549864684021	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549864684084	Marionette	TRACE	[4294967297] Frame script loaded
+1549864684085	Marionette	TRACE	[4294967297] Frame script registered
+1549864684095	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"946bc020-2cd1-0f4c-99b1-85c88e100892","capabilities":{"browserName":"firefox","browserVersion":"65.0" ... ozprofile.9vljYhVD59Sl","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1549864684132	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"pageLoad":10000}]
+1549864684134	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1549864684433	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549864684444	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1549864686311	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+1549864690239	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549864692084	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/1/
+1549864692089	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1549864692107	Marionette	DEBUG	0 -> [0,4,"WebDriver:CloseWindow",{}]
+1549864692109	Marionette	DEBUG	0 <- [1,4,null,[]]
+1549864692114	Marionette	DEBUG	0 -> [0,5,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1549864692116	Marionette	INFO	Stopped listening on port 53000
+1549864692194	Marionette	DEBUG	0 <- [1,5,null,{"cause":"shutdown"}]
+1549864692296	Marionette	DEBUG	Closed connection 0
+1549864692413	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1549864692413	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1549864692413	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1549864692414	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1549864692414	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1549864692414	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1549864692414	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1549864692414	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1549864692414	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1549864692415	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1549864692415	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1549864692415	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1549864692416	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1549864692416	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1549864692416	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1549864692416	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1549864692416	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1549864692416	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1549864692416	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1549864692416	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1549864692416	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1549864692417	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1549864692417	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1549864692417	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1549864692417	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1549864692417	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1549864692417	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1549864692418	Marionette	DEBUG	Remote service is inactive
+1549864729852	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Y2G5S7Q2DqcX"
+1549864730695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549864730695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549864730890	Marionette	TRACE	Received observer notification profile-after-change
+1549864731065	Marionette	TRACE	Received observer notification command-line-startup
+1549864731065	Marionette	TRACE	Received observer notification nsPref:changed
+1549864731065	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549864731279	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1549864732724	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1549864732726	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1549864733201	Marionette	TRACE	All scripts recorded.
+1549864733202	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549864733203	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549864733204	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549864733204	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549864733205	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549864733207	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549864733207	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549864733207	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549864733208	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549864733208	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549864733209	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549864733210	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549864733210	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549864733211	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549864733211	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549864733211	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549864733211	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549864733212	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549864733212	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549864733212	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549864733212	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549864733213	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549864733213	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549864733213	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549864733213	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549864733213	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549864733274	Marionette	INFO	Listening on port 53102
+1549864733275	Marionette	DEBUG	Remote service is active
+1549864733331	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53144
+1549864733344	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1549864733345	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549864733431	Marionette	TRACE	[4294967297] Frame script loaded
+1549864733447	Marionette	TRACE	[4294967297] Frame script registered
+1549864733464	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"ef96a891-2f13-1d42-a72b-96c787d9017e","capabilities":{"browserName":"firefox","browserVersion":"65.0" ... ozprofile.Y2G5S7Q2DqcX","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1549864733509	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"pageLoad":10000}]
+1549864733510	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1549864733911	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549864733920	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1549864735604	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+1549864736898	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549864738331	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/1/
+1549864738334	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1549864738343	Marionette	DEBUG	0 -> [0,4,"WebDriver:CloseWindow",{}]
+1549864738344	Marionette	DEBUG	0 <- [1,4,null,[]]
+1549864738346	Marionette	DEBUG	0 -> [0,5,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1549864738347	Marionette	INFO	Stopped listening on port 53102
+1549864738402	Marionette	DEBUG	0 <- [1,5,null,{"cause":"shutdown"}]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1549864738470	Marionette	DEBUG	Closed connection 0
+1549864738576	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1549864738576	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1549864738576	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1549864738576	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1549864738576	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1549864738577	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1549864738577	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1549864738577	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1549864738577	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1549864738577	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1549864738577	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1549864738578	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1549864738578	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1549864738578	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1549864738579	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1549864738579	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1549864738579	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1549864738579	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1549864738579	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1549864738579	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1549864738579	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1549864738579	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1549864738580	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1549864738580	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1549864738580	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1549864738580	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1549864738580	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1549864738580	Marionette	DEBUG	Remote service is inactive
+1549864781734	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rX4WePtwvPb2"
+1549864782555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549864782555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549864782716	Marionette	TRACE	Received observer notification profile-after-change
+1549864782881	Marionette	TRACE	Received observer notification command-line-startup
+1549864782881	Marionette	TRACE	Received observer notification nsPref:changed
+1549864782881	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549864783103	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1549864784591	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1549864784591	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1549864784737	Marionette	TRACE	All scripts recorded.
+1549864784737	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549864784738	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549864784738	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549864784738	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549864784738	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549864784739	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549864784739	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549864784740	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549864784740	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549864784740	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549864784740	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549864784741	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549864784741	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549864784741	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549864784741	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549864784741	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549864784741	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549864784742	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549864784742	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549864784742	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549864784742	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549864784742	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549864784742	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549864784744	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549864784744	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549864784744	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549864784814	Marionette	INFO	Listening on port 53206
+1549864784814	Marionette	DEBUG	Remote service is active
+1549864784907	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53241
+1549864784953	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1549864784954	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549864785009	Marionette	TRACE	[4294967297] Frame script loaded
+1549864785013	Marionette	TRACE	[4294967297] Frame script registered
+1549864785020	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"00aeab8d-6ceb-9842-9643-49a4688e5ffd","capabilities":{"browserName":"firefox","browserVersion":"65.0" ... ozprofile.rX4WePtwvPb2","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1549864785052	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"pageLoad":10000}]
+1549864785054	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1549864785381	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549864785393	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1549864785815	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+1549864788775	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549864790069	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/1/
+1549864790074	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1549864790083	Marionette	DEBUG	0 -> [0,4,"WebDriver:CloseWindow",{}]
+1549864790084	Marionette	DEBUG	0 <- [1,4,null,[]]
+1549864790085	Marionette	DEBUG	0 -> [0,5,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1549864790086	Marionette	INFO	Stopped listening on port 53206
+1549864790148	Marionette	DEBUG	0 <- [1,5,null,{"cause":"shutdown"}]
+1549864790220	Marionette	DEBUG	Closed connection 0
+1549864790327	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1549864790327	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1549864790328	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1549864790328	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1549864790328	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1549864790328	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1549864790328	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1549864790329	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1549864790329	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1549864790329	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1549864790329	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1549864790329	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1549864790330	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1549864790330	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1549864790330	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1549864790330	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1549864790330	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1549864790330	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1549864790331	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1549864790331	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1549864790331	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1549864790331	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1549864790331	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1549864790331	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1549864790331	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1549864790331	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1549864790331	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1549864790332	Marionette	DEBUG	Remote service is inactive
+1549864822396	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vSDp8dHoNsSD"
+1549864823198	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549864823198	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549864823367	Marionette	TRACE	Received observer notification profile-after-change
+1549864823533	Marionette	TRACE	Received observer notification command-line-startup
+1549864823533	Marionette	TRACE	Received observer notification nsPref:changed
+1549864823533	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549864823762	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1549864825439	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1549864825441	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1549864825894	Marionette	TRACE	All scripts recorded.
+1549864825894	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549864825895	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549864825895	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549864825896	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549864825896	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549864825897	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549864825898	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549864825898	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549864825898	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549864825899	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549864825899	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549864825900	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549864825901	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549864825901	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549864825901	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549864825901	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549864825901	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549864825902	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549864825902	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549864825902	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549864825902	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549864825903	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549864825903	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549864825903	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549864825903	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549864825903	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549864825955	Marionette	INFO	Listening on port 53300
+1549864825955	Marionette	DEBUG	Remote service is active
+1549864826051	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53343
+1549864826066	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1549864826067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549864826136	Marionette	TRACE	[4294967297] Frame script loaded
+1549864826139	Marionette	TRACE	[4294967297] Frame script registered
+1549864826146	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"2ed93c63-94eb-c249-bf07-de6da2545a01","capabilities":{"browserName":"firefox","browserVersion":"65.0" ... ozprofile.vSDp8dHoNsSD","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1549864826177	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"pageLoad":10000}]
+1549864826178	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1549864826498	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549864826507	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1549864827488	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+1549864828624	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549864829924	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/1/
+1549864829927	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1549864829938	Marionette	DEBUG	0 -> [0,4,"WebDriver:GetPageSource",{}]
+1549864829948	Marionette	DEBUG	0 <- [1,4,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549864829961	Marionette	DEBUG	0 -> [0,5,"WebDriver:Navigate",{"url":"http://www.5qmh.com/2"}]
+1549864829964	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/1/
+1549864830191	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/1/
+1549864830193	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/2/, line 1: TypeError: PlayHistoryObj is undefined
+1549864830520	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/2/
+JavaScript error: http://www.5qmh.com/2/, line 22: TypeError: $(...).facebox is not a function
+1549864831240	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/2/
+1549864831243	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1549864831253	Marionette	DEBUG	0 -> [0,6,"WebDriver:GetPageSource",{}]
+1549864831257	Marionette	DEBUG	0 <- [1,6,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549864831280	Marionette	DEBUG	0 -> [0,7,"WebDriver:Navigate",{"url":"http://www.5qmh.com/3"}]
+1549864831286	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/2/
+1549864831485	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/2/
+1549864831486	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/2/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/3/, line 1: TypeError: PlayHistoryObj is undefined
+1549864831796	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/3/
+JavaScript error: http://www.5qmh.com/3/, line 22: TypeError: $(...).facebox is not a function
+1549864832107	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/3/
+1549864832110	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1549864832120	Marionette	DEBUG	0 -> [0,8,"WebDriver:GetPageSource",{}]
+1549864832135	Marionette	DEBUG	0 <- [1,8,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+1549864940062	Marionette	DEBUG	Closed connection 0
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1549864940163	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1549864940163	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1549864940163	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1549864940163	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1549864940163	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1549864940163	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1549864940163	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1549864940164	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1549864940164	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1549864940164	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1549864940165	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1549864940165	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1549864940165	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1549864940165	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1549864940165	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1549864940165	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1549864940165	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1549864940165	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1549864940166	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1549864940166	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1549864940166	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1549864940167	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1549864940167	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1549864940167	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1549864940167	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1549864940167	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1549864940168	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1549864940168	Marionette	INFO	Stopped listening on port 53300
+1549864940168	Marionette	DEBUG	Remote service is inactive
+1549864956134	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eYOsLNyvuw1U"
+1549864957023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549864957023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549864957175	Marionette	TRACE	Received observer notification profile-after-change
+1549864957520	Marionette	TRACE	Received observer notification command-line-startup
+1549864957520	Marionette	TRACE	Received observer notification nsPref:changed
+1549864957520	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549864957707	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1549864959260	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1549864959261	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1549864959711	Marionette	TRACE	All scripts recorded.
+1549864959712	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549864959712	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549864959712	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549864959713	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549864959714	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549864959714	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549864959715	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549864959715	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549864959715	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549864959715	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549864959715	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549864959716	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549864959716	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549864959717	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549864959717	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549864959717	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549864959717	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549864959718	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549864959718	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549864959718	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549864959718	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549864959718	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549864959718	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549864959718	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549864959718	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549864959719	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549864959776	Marionette	INFO	Listening on port 53446
+1549864959777	Marionette	DEBUG	Remote service is active
+1549864959816	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53489
+1549864959819	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1549864959820	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549864959900	Marionette	TRACE	[4294967297] Frame script loaded
+1549864959904	Marionette	TRACE	[4294967297] Frame script registered
+1549864959918	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"0a8bb0e3-7cee-2e40-bd27-72b331f640bd","capabilities":{"browserName":"firefox","browserVersion":"65.0" ... ozprofile.eYOsLNyvuw1U","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1549864959941	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"pageLoad":10000}]
+1549864959942	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1549864960260	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549864960267	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1549864960493	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+1549864965950	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549864967991	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/1/
+1549864967994	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1549864968008	Marionette	DEBUG	0 -> [0,4,"WebDriver:GetPageSource",{}]
+1549864968016	Marionette	DEBUG	0 <- [1,4,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549864968029	Marionette	DEBUG	0 -> [0,5,"WebDriver:Navigate",{"url":"http://www.5qmh.com/2"}]
+1549864968037	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/1/
+1549864968257	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/1/
+1549864968258	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/2/, line 1: TypeError: PlayHistoryObj is undefined
+1549864968678	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/2/
+JavaScript error: http://www.5qmh.com/2/, line 22: TypeError: $(...).facebox is not a function
+1549864970235	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/2/
+1549864970238	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1549864970250	Marionette	DEBUG	0 -> [0,6,"WebDriver:GetPageSource",{}]
+1549864970256	Marionette	DEBUG	0 <- [1,6,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549864970303	Marionette	DEBUG	0 -> [0,7,"WebDriver:Navigate",{"url":"http://www.5qmh.com/3"}]
+1549864970308	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/2/
+1549864971358	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/2/
+1549864971360	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/2/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/3/, line 1: TypeError: PlayHistoryObj is undefined
+1549864971733	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/3/
+JavaScript error: http://www.5qmh.com/3/, line 22: TypeError: $(...).facebox is not a function
+1549864972566	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/3/
+1549864972568	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1549864972575	Marionette	DEBUG	0 -> [0,8,"WebDriver:GetPageSource",{}]
+1549864972585	Marionette	DEBUG	0 <- [1,8,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549864972637	Marionette	DEBUG	0 -> [0,9,"WebDriver:Navigate",{"url":"http://www.5qmh.com/4"}]
+1549864972641	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/3/
+1549864973486	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/3/
+1549864973486	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/3/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/4/, line 1: TypeError: PlayHistoryObj is undefined
+1549864974842	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/4/
+JavaScript error: http://www.5qmh.com/4/, line 22: TypeError: $(...).facebox is not a function
+1549864975475	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/4/
+1549864975477	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1549864975487	Marionette	DEBUG	0 -> [0,10,"WebDriver:GetPageSource",{}]
+1549864975501	Marionette	DEBUG	0 <- [1,10,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549864975542	Marionette	DEBUG	0 -> [0,11,"WebDriver:Navigate",{"url":"http://www.5qmh.com/5"}]
+1549864975547	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/4/
+1549864975789	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/4/
+1549864975791	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/4/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/5/, line 1: TypeError: PlayHistoryObj is undefined
+1549864976265	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/5/
+JavaScript error: http://www.5qmh.com/5/, line 22: TypeError: $(...).facebox is not a function
+1549864976821	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/5/
+1549864976823	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1549864976835	Marionette	DEBUG	0 -> [0,12,"WebDriver:GetPageSource",{}]
+1549864976843	Marionette	DEBUG	0 <- [1,12,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549864976887	Marionette	DEBUG	0 -> [0,13,"WebDriver:Navigate",{"url":"http://www.5qmh.com/6"}]
+1549864976893	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/5/
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1549865004267	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nnDSrd8W91sr"
+1549865004973	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1549865004974	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1549865005153	Marionette	TRACE	Received observer notification profile-after-change
+1549865005349	Marionette	TRACE	Received observer notification command-line-startup
+1549865005349	Marionette	TRACE	Received observer notification nsPref:changed
+1549865005350	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549865005481	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1549865006959	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1549865006959	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1549865007502	Marionette	TRACE	All scripts recorded.
+1549865007503	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549865007504	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549865007505	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549865007505	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549865007506	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549865007507	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549865007507	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549865007507	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549865007508	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549865007508	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549865007509	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549865007511	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549865007511	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549865007511	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549865007511	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549865007512	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549865007512	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549865007513	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549865007513	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549865007513	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549865007513	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549865007513	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549865007514	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549865007514	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549865007514	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549865007515	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549865007560	Marionette	INFO	Listening on port 53577
+1549865007561	Marionette	DEBUG	Remote service is active
+1549865007643	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53618
+1549865007646	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1549865007647	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549865007764	Marionette	TRACE	[4294967297] Frame script loaded
+1549865007766	Marionette	TRACE	[4294967297] Frame script registered
+1549865007775	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"f1e3554e-657a-f24e-8255-4404611b24d8","capabilities":{"browserName":"firefox","browserVersion":"65.0" ... ozprofile.nnDSrd8W91sr","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1549865007813	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"pageLoad":10000}]
+1549865007814	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1549865008028	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"http://www.5qmh.com/1"}]
+1549865008038	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1549865008318	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/1/, line 1: TypeError: PlayHistoryObj is undefined
+1549865010188	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/1/, line 22: TypeError: $(...).facebox is not a function
+1549865014677	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/1/
+1549865014681	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1549865014693	Marionette	DEBUG	0 -> [0,4,"WebDriver:GetPageSource",{}]
+1549865014696	Marionette	DEBUG	0 <- [1,4,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865014707	Marionette	DEBUG	0 -> [0,5,"WebDriver:Navigate",{"url":"http://www.5qmh.com/2"}]
+1549865014713	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/1/
+1549865016871	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/1/
+1549865016872	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/1/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/2/, line 1: TypeError: PlayHistoryObj is undefined
+1549865017348	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/2/
+JavaScript error: http://www.5qmh.com/2/, line 22: TypeError: $(...).facebox is not a function
+1549865019119	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/2/
+1549865019121	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1549865019132	Marionette	DEBUG	0 -> [0,6,"WebDriver:GetPageSource",{}]
+1549865019139	Marionette	DEBUG	0 <- [1,6,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865019169	Marionette	DEBUG	0 -> [0,7,"WebDriver:Navigate",{"url":"http://www.5qmh.com/3"}]
+1549865019173	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/2/
+1549865019358	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/2/
+1549865019359	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/2/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/3/, line 1: TypeError: PlayHistoryObj is undefined
+1549865019637	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/3/
+JavaScript error: http://www.5qmh.com/3/, line 22: TypeError: $(...).facebox is not a function
+1549865021011	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/3/
+1549865021013	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1549865021022	Marionette	DEBUG	0 -> [0,8,"WebDriver:GetPageSource",{}]
+1549865021027	Marionette	DEBUG	0 <- [1,8,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cd ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865021060	Marionette	DEBUG	0 -> [0,9,"WebDriver:Navigate",{"url":"http://www.5qmh.com/4"}]
+1549865021065	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/3/
+1549865021256	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/3/
+1549865021257	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/3/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/4/, line 1: TypeError: PlayHistoryObj is undefined
+1549865021440	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/4/
+JavaScript error: http://www.5qmh.com/4/, line 22: TypeError: $(...).facebox is not a function
+1549865022771	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/4/
+1549865022773	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1549865022780	Marionette	DEBUG	0 -> [0,10,"WebDriver:GetPageSource",{}]
+1549865022788	Marionette	DEBUG	0 <- [1,10,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865022830	Marionette	DEBUG	0 -> [0,11,"WebDriver:Navigate",{"url":"http://www.5qmh.com/5"}]
+1549865022833	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/4/
+1549865022956	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/4/
+1549865022957	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/4/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/5/, line 1: TypeError: PlayHistoryObj is undefined
+1549865023150	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/5/
+JavaScript error: http://www.5qmh.com/5/, line 22: TypeError: $(...).facebox is not a function
+1549865024198	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/5/
+1549865024199	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1549865024208	Marionette	DEBUG	0 -> [0,12,"WebDriver:GetPageSource",{}]
+1549865024212	Marionette	DEBUG	0 <- [1,12,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865024243	Marionette	DEBUG	0 -> [0,13,"WebDriver:Navigate",{"url":"http://www.5qmh.com/6"}]
+1549865024249	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/5/
+1549865024453	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/5/
+1549865024454	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/5/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/6/, line 1: TypeError: PlayHistoryObj is undefined
+1549865024642	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/6/
+JavaScript error: http://www.5qmh.com/6/, line 22: TypeError: $(...).facebox is not a function
+1549865026306	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/6/
+1549865026308	Marionette	DEBUG	0 <- [1,13,null,{"value":null}]
+1549865026315	Marionette	DEBUG	0 -> [0,14,"WebDriver:GetPageSource",{}]
+1549865026327	Marionette	DEBUG	0 <- [1,14,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865026356	Marionette	DEBUG	0 -> [0,15,"WebDriver:Navigate",{"url":"http://www.5qmh.com/7"}]
+1549865026361	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/6/
+1549865027581	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/6/
+1549865027582	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/6/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/7/, line 1: TypeError: PlayHistoryObj is undefined
+1549865027748	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/7/
+JavaScript error: http://www.5qmh.com/7/, line 22: TypeError: $(...).facebox is not a function
+1549865028428	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/7/
+1549865028432	Marionette	DEBUG	0 <- [1,15,null,{"value":null}]
+1549865028446	Marionette	DEBUG	0 -> [0,16,"WebDriver:GetPageSource",{}]
+1549865028456	Marionette	DEBUG	0 <- [1,16,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865028499	Marionette	DEBUG	0 -> [0,17,"WebDriver:Navigate",{"url":"http://www.5qmh.com/8"}]
+1549865028508	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/7/
+1549865029423	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/7/
+1549865029424	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/7/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/8/, line 1: TypeError: PlayHistoryObj is undefined
+1549865030089	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/8/
+JavaScript error: http://www.5qmh.com/8/, line 22: TypeError: $(...).facebox is not a function
+1549865030698	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/8/
+1549865030699	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1549865030708	Marionette	DEBUG	0 -> [0,18,"WebDriver:GetPageSource",{}]
+1549865030722	Marionette	DEBUG	0 <- [1,18,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865030749	Marionette	DEBUG	0 -> [0,19,"WebDriver:Navigate",{"url":"http://www.5qmh.com/9"}]
+1549865030755	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/8/
+1549865031779	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/8/
+1549865031779	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/8/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/9/, line 1: TypeError: PlayHistoryObj is undefined
+1549865032300	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/9/
+JavaScript error: http://www.5qmh.com/9/, line 22: TypeError: $(...).facebox is not a function
+1549865036160	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/9/
+1549865036165	Marionette	DEBUG	0 <- [1,19,null,{"value":null}]
+1549865036177	Marionette	DEBUG	0 -> [0,20,"WebDriver:GetPageSource",{}]
+1549865036182	Marionette	DEBUG	0 <- [1,20,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865036241	Marionette	DEBUG	0 -> [0,21,"WebDriver:Navigate",{"url":"http://www.5qmh.com/10"}]
+1549865036249	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/9/
+1549865037412	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/9/
+1549865037413	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/9/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/10/, line 1: TypeError: PlayHistoryObj is undefined
+1549865038779	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/10/
+JavaScript error: http://www.5qmh.com/10/, line 22: TypeError: $(...).facebox is not a function
+1549865039957	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/10/
+1549865039960	Marionette	DEBUG	0 <- [1,21,null,{"value":null}]
+1549865039966	Marionette	DEBUG	0 -> [0,22,"WebDriver:GetPageSource",{}]
+1549865039973	Marionette	DEBUG	0 <- [1,22,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865040008	Marionette	DEBUG	0 -> [0,23,"WebDriver:Navigate",{"url":"http://www.5qmh.com/11"}]
+1549865040014	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/10/
+1549865041993	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/10/
+1549865041994	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/10/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/11/, line 1: TypeError: PlayHistoryObj is undefined
+1549865042213	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/11/
+JavaScript error: http://www.5qmh.com/11/, line 22: TypeError: $(...).facebox is not a function
+1549865043336	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/11/
+1549865043339	Marionette	DEBUG	0 <- [1,23,null,{"value":null}]
+1549865043348	Marionette	DEBUG	0 -> [0,24,"WebDriver:GetPageSource",{}]
+1549865043351	Marionette	DEBUG	0 <- [1,24,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865043405	Marionette	DEBUG	0 -> [0,25,"WebDriver:Navigate",{"url":"http://www.5qmh.com/12"}]
+1549865043410	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/11/
+1549865044681	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/11/
+1549865044683	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/11/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/12/, line 1: TypeError: PlayHistoryObj is undefined
+1549865044899	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/12/
+JavaScript error: http://www.5qmh.com/12/, line 22: TypeError: $(...).facebox is not a function
+1549865046426	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/12/
+1549865046428	Marionette	DEBUG	0 <- [1,25,null,{"value":null}]
+1549865046438	Marionette	DEBUG	0 -> [0,26,"WebDriver:GetPageSource",{}]
+1549865046441	Marionette	DEBUG	0 <- [1,26,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865046460	Marionette	DEBUG	0 -> [0,27,"WebDriver:Navigate",{"url":"http://www.5qmh.com/13"}]
+1549865046464	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/12/
+1549865047794	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/12/
+1549865047797	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/12/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/13/, line 1: TypeError: PlayHistoryObj is undefined
+1549865047945	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/13/
+JavaScript error: http://www.5qmh.com/13/, line 22: TypeError: $(...).facebox is not a function
+1549865049761	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/13/
+1549865049763	Marionette	DEBUG	0 <- [1,27,null,{"value":null}]
+1549865049773	Marionette	DEBUG	0 -> [0,28,"WebDriver:GetPageSource",{}]
+1549865049776	Marionette	DEBUG	0 <- [1,28,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865049802	Marionette	DEBUG	0 -> [0,29,"WebDriver:Navigate",{"url":"http://www.5qmh.com/14"}]
+1549865049808	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/13/
+1549865050985	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/13/
+1549865050986	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/13/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/14/, line 1: TypeError: PlayHistoryObj is undefined
+1549865051161	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/14/
+JavaScript error: http://www.5qmh.com/14/, line 22: TypeError: $(...).facebox is not a function
+1549865053550	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/14/
+1549865053552	Marionette	DEBUG	0 <- [1,29,null,{"value":null}]
+1549865053563	Marionette	DEBUG	0 -> [0,30,"WebDriver:GetPageSource",{}]
+1549865053567	Marionette	DEBUG	0 <- [1,30,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865053608	Marionette	DEBUG	0 -> [0,31,"WebDriver:Navigate",{"url":"http://www.5qmh.com/15"}]
+1549865053611	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/14/
+1549865054717	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/14/
+1549865054719	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/14/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/15/, line 1: TypeError: PlayHistoryObj is undefined
+1549865055106	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/15/
+JavaScript error: http://www.5qmh.com/15/, line 22: TypeError: $(...).facebox is not a function
+1549865056478	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/15/
+1549865056479	Marionette	DEBUG	0 <- [1,31,null,{"value":null}]
+1549865056491	Marionette	DEBUG	0 -> [0,32,"WebDriver:GetPageSource",{}]
+1549865056494	Marionette	DEBUG	0 <- [1,32,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865056523	Marionette	DEBUG	0 -> [0,33,"WebDriver:Navigate",{"url":"http://www.5qmh.com/16"}]
+1549865056529	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/15/
+1549865056770	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/15/
+1549865056771	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/15/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/16/, line 1: TypeError: PlayHistoryObj is undefined
+1549865057011	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/16/
+JavaScript error: http://www.5qmh.com/16/, line 22: TypeError: $(...).facebox is not a function
+1549865059429	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/16/
+1549865059434	Marionette	DEBUG	0 <- [1,33,null,{"value":null}]
+1549865059440	Marionette	DEBUG	0 -> [0,34,"WebDriver:GetPageSource",{}]
+1549865059443	Marionette	DEBUG	0 <- [1,34,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865059463	Marionette	DEBUG	0 -> [0,35,"WebDriver:Navigate",{"url":"http://www.5qmh.com/17"}]
+1549865059467	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/16/
+1549865060581	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/16/
+1549865060583	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/16/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/17/, line 1: TypeError: PlayHistoryObj is undefined
+1549865060807	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/17/
+JavaScript error: http://www.5qmh.com/17/, line 22: TypeError: $(...).facebox is not a function
+1549865061994	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/17/
+1549865061996	Marionette	DEBUG	0 <- [1,35,null,{"value":null}]
+1549865062003	Marionette	DEBUG	0 -> [0,36,"WebDriver:GetPageSource",{}]
+1549865062007	Marionette	DEBUG	0 <- [1,36,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865062027	Marionette	DEBUG	0 -> [0,37,"WebDriver:Navigate",{"url":"http://www.5qmh.com/18"}]
+1549865062031	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/17/
+1549865062439	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/17/
+1549865062440	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/17/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/18/, line 1: TypeError: PlayHistoryObj is undefined
+1549865062686	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/18/
+JavaScript error: http://www.5qmh.com/18/, line 22: TypeError: $(...).facebox is not a function
+1549865063836	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/18/
+1549865063839	Marionette	DEBUG	0 <- [1,37,null,{"value":null}]
+1549865063844	Marionette	DEBUG	0 -> [0,38,"WebDriver:GetPageSource",{}]
+1549865063847	Marionette	DEBUG	0 <- [1,38,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865063867	Marionette	DEBUG	0 -> [0,39,"WebDriver:Navigate",{"url":"http://www.5qmh.com/19"}]
+1549865063873	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/18/
+1549865064956	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/18/
+1549865064958	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/18/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/19/, line 1: TypeError: PlayHistoryObj is undefined
+1549865065232	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/19/
+JavaScript error: http://www.5qmh.com/19/, line 22: TypeError: $(...).facebox is not a function
+1549865066448	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/19/
+1549865066452	Marionette	DEBUG	0 <- [1,39,null,{"value":null}]
+1549865066459	Marionette	DEBUG	0 -> [0,40,"WebDriver:GetPageSource",{}]
+1549865066462	Marionette	DEBUG	0 <- [1,40,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865066479	Marionette	DEBUG	0 -> [0,41,"WebDriver:Navigate",{"url":"http://www.5qmh.com/20"}]
+1549865066483	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/19/
+1549865068141	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/19/
+1549865068142	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/19/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/20/, line 1: TypeError: PlayHistoryObj is undefined
+1549865068294	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/20/
+JavaScript error: http://www.5qmh.com/20/, line 22: TypeError: $(...).facebox is not a function
+1549865069976	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/20/
+1549865069978	Marionette	DEBUG	0 <- [1,41,null,{"value":null}]
+1549865069986	Marionette	DEBUG	0 -> [0,42,"WebDriver:GetPageSource",{}]
+1549865069992	Marionette	DEBUG	0 <- [1,42,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865070011	Marionette	DEBUG	0 -> [0,43,"WebDriver:Navigate",{"url":"http://www.5qmh.com/21"}]
+1549865070015	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/20/
+1549865070444	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/20/
+1549865070445	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/20/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/21/, line 1: TypeError: PlayHistoryObj is undefined
+1549865071427	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/21/
+JavaScript error: http://www.5qmh.com/21/, line 22: TypeError: $(...).facebox is not a function
+1549865072946	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/21/
+1549865072947	Marionette	DEBUG	0 <- [1,43,null,{"value":null}]
+1549865072951	Marionette	DEBUG	0 -> [0,44,"WebDriver:GetPageSource",{}]
+1549865072960	Marionette	DEBUG	0 <- [1,44,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865072986	Marionette	DEBUG	0 -> [0,45,"WebDriver:Navigate",{"url":"http://www.5qmh.com/22"}]
+1549865072990	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/21/
+1549865074456	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/21/
+1549865074457	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/21/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/22/, line 1: TypeError: PlayHistoryObj is undefined
+1549865074730	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/22/
+JavaScript error: http://www.5qmh.com/22/, line 22: TypeError: $(...).facebox is not a function
+1549865076635	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/22/
+1549865076637	Marionette	DEBUG	0 <- [1,45,null,{"value":null}]
+1549865076648	Marionette	DEBUG	0 -> [0,46,"WebDriver:GetPageSource",{}]
+1549865076651	Marionette	DEBUG	0 <- [1,46,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865076674	Marionette	DEBUG	0 -> [0,47,"WebDriver:Navigate",{"url":"http://www.5qmh.com/23"}]
+1549865076679	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/22/
+1549865078348	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/22/
+1549865078349	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/22/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/23/, line 1: TypeError: PlayHistoryObj is undefined
+1549865078504	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/23/
+JavaScript error: http://www.5qmh.com/23/, line 22: TypeError: $(...).facebox is not a function
+1549865080045	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/23/
+1549865080047	Marionette	DEBUG	0 <- [1,47,null,{"value":null}]
+1549865080055	Marionette	DEBUG	0 -> [0,48,"WebDriver:GetPageSource",{}]
+1549865080062	Marionette	DEBUG	0 <- [1,48,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865080094	Marionette	DEBUG	0 -> [0,49,"WebDriver:Navigate",{"url":"http://www.5qmh.com/24"}]
+1549865080104	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/23/
+1549865081342	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/23/
+1549865081343	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/23/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/24/, line 1: TypeError: PlayHistoryObj is undefined
+1549865081650	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/24/
+JavaScript error: http://www.5qmh.com/24/, line 22: TypeError: $(...).facebox is not a function
+1549865082848	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/24/
+1549865082851	Marionette	DEBUG	0 <- [1,49,null,{"value":null}]
+1549865082859	Marionette	DEBUG	0 -> [0,50,"WebDriver:GetPageSource",{}]
+1549865082862	Marionette	DEBUG	0 <- [1,50,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865082880	Marionette	DEBUG	0 -> [0,51,"WebDriver:Navigate",{"url":"http://www.5qmh.com/25"}]
+1549865082885	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/24/
+1549865084051	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/24/
+1549865084052	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/24/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/25/, line 1: TypeError: PlayHistoryObj is undefined
+1549865084310	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/25/
+JavaScript error: http://www.5qmh.com/25/, line 22: TypeError: $(...).facebox is not a function
+1549865086746	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/25/
+1549865086748	Marionette	DEBUG	0 <- [1,51,null,{"value":null}]
+1549865086757	Marionette	DEBUG	0 -> [0,52,"WebDriver:GetPageSource",{}]
+1549865086762	Marionette	DEBUG	0 <- [1,52,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865086781	Marionette	DEBUG	0 -> [0,53,"WebDriver:Navigate",{"url":"http://www.5qmh.com/26"}]
+1549865086785	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/25/
+1549865087241	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/25/
+1549865087243	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/25/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/26/, line 1: TypeError: PlayHistoryObj is undefined
+1549865088108	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/26/
+JavaScript error: http://www.5qmh.com/26/, line 22: TypeError: $(...).facebox is not a function
+1549865091076	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/26/
+1549865091078	Marionette	DEBUG	0 <- [1,53,null,{"value":null}]
+1549865091087	Marionette	DEBUG	0 -> [0,54,"WebDriver:GetPageSource",{}]
+1549865091095	Marionette	DEBUG	0 <- [1,54,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865091121	Marionette	DEBUG	0 -> [0,55,"WebDriver:Navigate",{"url":"http://www.5qmh.com/27"}]
+1549865091128	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/26/
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1549865091640	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/26/
+1549865091641	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/26/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/27/, line 1: TypeError: PlayHistoryObj is undefined
+1549865092061	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/27/
+JavaScript error: http://www.5qmh.com/27/, line 22: TypeError: $(...).facebox is not a function
+1549865093141	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/27/
+1549865093143	Marionette	DEBUG	0 <- [1,55,null,{"value":null}]
+1549865093150	Marionette	DEBUG	0 -> [0,56,"WebDriver:GetPageSource",{}]
+1549865093154	Marionette	DEBUG	0 <- [1,56,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865093177	Marionette	DEBUG	0 -> [0,57,"WebDriver:Navigate",{"url":"http://www.5qmh.com/28"}]
+1549865093180	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/27/
+1549865094652	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/27/
+1549865094653	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/27/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/28/, line 1: TypeError: PlayHistoryObj is undefined
+1549865094880	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/28/
+JavaScript error: http://www.5qmh.com/28/, line 22: TypeError: $(...).facebox is not a function
+1549865096399	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/28/
+1549865096401	Marionette	DEBUG	0 <- [1,57,null,{"value":null}]
+1549865096413	Marionette	DEBUG	0 -> [0,58,"WebDriver:GetPageSource",{}]
+1549865096416	Marionette	DEBUG	0 <- [1,58,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865096436	Marionette	DEBUG	0 -> [0,59,"WebDriver:Navigate",{"url":"http://www.5qmh.com/29"}]
+1549865096439	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/28/
+1549865098137	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/28/
+1549865098138	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/28/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/29/, line 1: TypeError: PlayHistoryObj is undefined
+1549865098388	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/29/
+JavaScript error: http://www.5qmh.com/29/, line 22: TypeError: $(...).facebox is not a function
+1549865099296	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/29/
+1549865099297	Marionette	DEBUG	0 <- [1,59,null,{"value":null}]
+1549865099304	Marionette	DEBUG	0 -> [0,60,"WebDriver:GetPageSource",{}]
+1549865099306	Marionette	DEBUG	0 <- [1,60,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865099329	Marionette	DEBUG	0 -> [0,61,"WebDriver:Navigate",{"url":"http://www.5qmh.com/30"}]
+1549865099332	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/29/
+1549865100136	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/29/
+1549865100137	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/29/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/30/, line 1: TypeError: PlayHistoryObj is undefined
+1549865100293	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/30/
+JavaScript error: http://www.5qmh.com/30/, line 22: TypeError: $(...).facebox is not a function
+1549865100835	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/30/
+1549865100838	Marionette	DEBUG	0 <- [1,61,null,{"value":null}]
+1549865100848	Marionette	DEBUG	0 -> [0,62,"WebDriver:GetPageSource",{}]
+1549865100853	Marionette	DEBUG	0 <- [1,62,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865100872	Marionette	DEBUG	0 -> [0,63,"WebDriver:Navigate",{"url":"http://www.5qmh.com/31"}]
+1549865100876	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/30/
+1549865101717	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/30/
+1549865101718	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/30/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/31/, line 1: TypeError: PlayHistoryObj is undefined
+1549865101840	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/31/
+JavaScript error: http://www.5qmh.com/31/, line 22: TypeError: $(...).facebox is not a function
+1549865102968	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/31/
+1549865102970	Marionette	DEBUG	0 <- [1,63,null,{"value":null}]
+1549865102977	Marionette	DEBUG	0 -> [0,64,"WebDriver:GetPageSource",{}]
+1549865102981	Marionette	DEBUG	0 <- [1,64,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865102999	Marionette	DEBUG	0 -> [0,65,"WebDriver:Navigate",{"url":"http://www.5qmh.com/32"}]
+1549865103005	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/31/
+1549865104035	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/31/
+1549865104037	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/31/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/32/, line 1: TypeError: PlayHistoryObj is undefined
+1549865104154	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/32/
+JavaScript error: http://www.5qmh.com/32/, line 22: TypeError: $(...).facebox is not a function
+1549865105341	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/32/
+1549865105346	Marionette	DEBUG	0 <- [1,65,null,{"value":null}]
+1549865105352	Marionette	DEBUG	0 -> [0,66,"WebDriver:GetPageSource",{}]
+1549865105354	Marionette	DEBUG	0 <- [1,66,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865105374	Marionette	DEBUG	0 -> [0,67,"WebDriver:Navigate",{"url":"http://www.5qmh.com/33"}]
+1549865105379	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/32/
+1549865105960	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/32/
+1549865105961	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/32/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/33/, line 1: TypeError: PlayHistoryObj is undefined
+1549865106100	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/33/
+JavaScript error: http://www.5qmh.com/33/, line 22: TypeError: $(...).facebox is not a function
+1549865107357	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/33/
+1549865107359	Marionette	DEBUG	0 <- [1,67,null,{"value":null}]
+1549865107366	Marionette	DEBUG	0 -> [0,68,"WebDriver:GetPageSource",{}]
+1549865107369	Marionette	DEBUG	0 <- [1,68,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865107387	Marionette	DEBUG	0 -> [0,69,"WebDriver:Navigate",{"url":"http://www.5qmh.com/34"}]
+1549865107392	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/33/
+1549865108757	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/33/
+1549865108758	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/33/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/34/, line 1: TypeError: PlayHistoryObj is undefined
+1549865108908	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/34/
+JavaScript error: http://www.5qmh.com/34/, line 22: TypeError: $(...).facebox is not a function
+1549865109731	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/34/
+1549865109732	Marionette	DEBUG	0 <- [1,69,null,{"value":null}]
+1549865109740	Marionette	DEBUG	0 -> [0,70,"WebDriver:GetPageSource",{}]
+1549865109746	Marionette	DEBUG	0 <- [1,70,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865109766	Marionette	DEBUG	0 -> [0,71,"WebDriver:Navigate",{"url":"http://www.5qmh.com/35"}]
+1549865109771	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/34/
+1549865111539	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/34/
+1549865111540	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/34/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/35/, line 1: TypeError: PlayHistoryObj is undefined
+1549865111696	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/35/
+JavaScript error: http://www.5qmh.com/35/, line 22: TypeError: $(...).facebox is not a function
+1549865113706	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/35/
+1549865113708	Marionette	DEBUG	0 <- [1,71,null,{"value":null}]
+1549865113717	Marionette	DEBUG	0 -> [0,72,"WebDriver:GetPageSource",{}]
+1549865113721	Marionette	DEBUG	0 <- [1,72,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865113745	Marionette	DEBUG	0 -> [0,73,"WebDriver:Navigate",{"url":"http://www.5qmh.com/36"}]
+1549865113748	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/35/
+1549865115932	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/35/
+1549865115932	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/35/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/36/, line 1: TypeError: PlayHistoryObj is undefined
+1549865116176	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/36/
+JavaScript error: http://www.5qmh.com/36/, line 22: TypeError: $(...).facebox is not a function
+1549865117511	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/36/
+1549865117513	Marionette	DEBUG	0 <- [1,73,null,{"value":null}]
+1549865117520	Marionette	DEBUG	0 -> [0,74,"WebDriver:GetPageSource",{}]
+1549865117522	Marionette	DEBUG	0 <- [1,74,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865117541	Marionette	DEBUG	0 -> [0,75,"WebDriver:Navigate",{"url":"http://www.5qmh.com/37"}]
+1549865117546	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/36/
+1549865118132	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/36/
+1549865118134	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/36/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/37/, line 1: TypeError: PlayHistoryObj is undefined
+1549865118250	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/37/
+JavaScript error: http://www.5qmh.com/37/, line 22: TypeError: $(...).facebox is not a function
+1549865120261	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/37/
+1549865120263	Marionette	DEBUG	0 <- [1,75,null,{"value":null}]
+1549865120269	Marionette	DEBUG	0 -> [0,76,"WebDriver:GetPageSource",{}]
+1549865120272	Marionette	DEBUG	0 <- [1,76,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865120291	Marionette	DEBUG	0 -> [0,77,"WebDriver:Navigate",{"url":"http://www.5qmh.com/38"}]
+1549865120298	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/37/
+1549865121431	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/37/
+1549865121432	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/37/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/38/, line 1: TypeError: PlayHistoryObj is undefined
+1549865121579	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/38/
+JavaScript error: http://www.5qmh.com/38/, line 22: TypeError: $(...).facebox is not a function
+1549865123058	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/38/
+1549865123059	Marionette	DEBUG	0 <- [1,77,null,{"value":null}]
+1549865123065	Marionette	DEBUG	0 -> [0,78,"WebDriver:GetPageSource",{}]
+1549865123068	Marionette	DEBUG	0 <- [1,78,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865123097	Marionette	DEBUG	0 -> [0,79,"WebDriver:Navigate",{"url":"http://www.5qmh.com/39"}]
+1549865123100	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/38/
+1549865123330	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/38/
+1549865123331	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/38/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/39/, line 1: TypeError: PlayHistoryObj is undefined
+1549865123446	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/39/
+JavaScript error: http://www.5qmh.com/39/, line 22: TypeError: $(...).facebox is not a function
+1549865124839	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/39/
+1549865124840	Marionette	DEBUG	0 <- [1,79,null,{"value":null}]
+1549865124847	Marionette	DEBUG	0 -> [0,80,"WebDriver:GetPageSource",{}]
+1549865124850	Marionette	DEBUG	0 <- [1,80,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]
+1549865124869	Marionette	DEBUG	0 -> [0,81,"WebDriver:Navigate",{"url":"http://www.5qmh.com/40"}]
+1549865124874	Marionette	TRACE	[4294967297] Received DOM event beforeunload for http://www.5qmh.com/39/
+1549865125133	Marionette	TRACE	[4294967297] Received DOM event pagehide for http://www.5qmh.com/39/
+1549865125135	Marionette	TRACE	[4294967297] Received DOM event unload for http://www.5qmh.com/39/
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/playclass.js?v=1.0.3, line 76: ReferenceError: jQuery is not defined
+JavaScript error: http://www.5qmh.com/templates/wuqi/style/js/jquery.base.js?v=1.0.3, line 13: ReferenceError: $ is not defined
+JavaScript error: http://www.5qmh.com/40/, line 1: TypeError: PlayHistoryObj is undefined
+1549865125264	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for http://www.5qmh.com/40/
+JavaScript error: http://www.5qmh.com/40/, line 22: TypeError: $(...).facebox is not a function
+1549865127618	Marionette	TRACE	[4294967297] Received DOM event pageshow for http://www.5qmh.com/40/
+1549865127619	Marionette	DEBUG	0 <- [1,81,null,{"value":null}]
+1549865127625	Marionette	DEBUG	0 -> [0,82,"WebDriver:GetPageSource",{}]
+1549865127630	Marionette	DEBUG	0 <- [1,82,null,{"value":"<html><head><script async=\"\" src=\"http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?c ... \"backToTop\" style=\"display: none;\"><a href=\"javascript:;\" id=\"backTop\" title=\"返回顶部\">回到顶部</a></div></body></html>"}]

@@ -1,5 +1,5 @@
 import scrapy
-import sys  
+import sys
 reload(sys)  
 sys.setdefaultencoding('utf8')
 
@@ -9,7 +9,6 @@ class MhSpider(scrapy.Spider):
     url = ''
 
     def start_requests(self):
-        
         while self.maxLen < 35000:
             self.maxLen+=1
             self.url = 'http://www.5qmh.com/' + str( self.maxLen )
