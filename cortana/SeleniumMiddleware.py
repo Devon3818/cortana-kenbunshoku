@@ -29,6 +29,6 @@ class SeleniumMiddleware():
     @classmethod
     def from_crawler(cls, crawler):
         # This method is used by Scrapy to create your spiders.
-        s = cls(timeout=10)
+        s = cls(timeout=30)
         return s
 
