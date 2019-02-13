@@ -1,6 +1,7 @@
 import scrapy
 import sys
 from selenium import webdriver
+from ..items import CortanaItem
 reload(sys)  
 sys.setdefaultencoding('utf8')
 
@@ -13,14 +14,14 @@ class MhSpider(scrapy.Spider):
     a_title = ''
 
     def start_requests(self):
+        item = CortanaItem()
         while self.maxLen < 1:
             self.maxLen+=1
-            self.url = 'http://www.5qmh.com/' + str( self.maxLen )
+            self.url = 'http://www.5qmh.com/7366'
             yield scrapy.Request(url=self.url, callback=self.parse)
 
 
     def parse(self, response):
-
         ul_list = response.css('.chapter-list ul')
         #print ul_list
         #print len(ul_list)

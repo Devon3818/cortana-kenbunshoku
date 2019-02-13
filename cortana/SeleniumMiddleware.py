@@ -10,7 +10,9 @@ class SeleniumMiddleware():
     def __init__(self, timeout=None):
         self.logger = getLogger(__name__)
         self.timeout = timeout
-        self.browser = webdriver.Firefox()
+        opt = webdriver.FirefoxOptions()
+        opt.set_headless()
+        self.browser = webdriver.Firefox(firefox_options=opt)
         self.browser.set_page_load_timeout(self.timeout)
         self.wait = WebDriverWait(self.browser, self.timeout)
  
