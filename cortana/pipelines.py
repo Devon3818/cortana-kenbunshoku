@@ -20,6 +20,17 @@ class CortanaPipeline(object):
 
         
     def process_item(self, item, spider):
+
+        if spider.name == 'sl':
+			data = {
+				'mh_id': item['mh_id'],
+				'mh_index': item['mh_index'],
+				'mh_chip': item['mh_chip'],
+				'mh_src': item['mh_src'],
+				'mh_page': item['mh_page'],
+			}
+			self.mhpost['chip'].insert_one(data)
+
         return item
 
     def close_spider(self, spider):

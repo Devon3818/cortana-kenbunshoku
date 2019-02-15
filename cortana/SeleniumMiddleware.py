@@ -10,9 +10,10 @@ class SeleniumMiddleware():
     def __init__(self, timeout=None):
         self.logger = getLogger(__name__)
         self.timeout = timeout
-        opt = webdriver.FirefoxOptions()
-        opt.set_headless()
-        self.browser = webdriver.Firefox(firefox_options=opt)
+        # opt = webdriver.FirefoxOptions()
+        # opt.set_headless()
+        # self.browser = webdriver.Firefox(firefox_options=opt)
+        self.browser = webdriver.Firefox()
         self.browser.set_page_load_timeout(self.timeout)
         self.wait = WebDriverWait(self.browser, self.timeout)
  
@@ -31,6 +32,6 @@ class SeleniumMiddleware():
     @classmethod
     def from_crawler(cls, crawler):
         # This method is used by Scrapy to create your spiders.
-        s = cls(timeout=30)
+        s = cls(timeout=40)
         return s
 

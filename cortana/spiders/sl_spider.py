@@ -1,7 +1,7 @@
 import scrapy
 import sys
 from selenium import webdriver
-from ..items import CortanaItem
+from ..items import ChipItem
 reload(sys)  
 sys.setdefaultencoding('utf8')
 
@@ -14,10 +14,9 @@ class MhSpider(scrapy.Spider):
     a_title = ''
 
     def start_requests(self):
-        item = CortanaItem()
         while self.maxLen < 1:
             self.maxLen+=1
-            self.url = 'http://www.5qmh.com/7366'
+            self.url = 'http://www.5qmh.com/482'
             yield scrapy.Request(url=self.url, callback=self.parse)
 
 
@@ -47,30 +46,40 @@ class MhSpider(scrapy.Spider):
                             yield request
 
     def parse_page(self, response):
-        filename = 'sl.html'
-        img_src = response.css('#manga::attr(src)').extract_first()
-        title = response.css('.title h1 a::text').extract_first()
-        p = response.css('.title h2::text').extract_first()
-        sp = response.css('.title .curPage::text').extract_first()
+        item = ChipItem()
+
+        item['mh_id'] = '482'
+        item['mh_index'] = response.meta['p_index']
+        item['mh_chip'] = response.meta['title']
+        item['mh_page'] = response.meta['page']
+        item['mh_src'] = response.css('#manga::attr(src)').extract_first()
+
+        yield item
+
+        # filename = 'sl.html'
+        # img_src = response.css('#manga::attr(src)').extract_first()
+        # title = response.css('.title h1 a::text').extract_first()
+        # p = response.css('.title h2::text').extract_first()
+        # sp = response.css('.title .curPage::text').extract_first()
         
-        with open(filename, 'a+') as f:
-            f.write('\n')
-            f.write(response.meta['title'])
-            f.write('\n')
-            f.write(str(response.meta['p_index']))
-            f.write('\n')
-            f.write(title)
-            f.write('/')
-            f.write(p)
-            f.write('/')
-            f.write(str(response.meta['page']))
-            f.write('/')
-            f.write(str(self.a_page))
-            f.write('\n')
-            f.write(img_src)
-            f.write('\n')
-            f.write('\n')
-            f.write('\n')
-            f.write('\n')
-            f.close()
+        # with open(filename, 'a+') as f:
+        #     f.write('\n')
+        #     f.write(response.meta['title'])
+        #     f.write('\n')
+        #     f.write(str(response.meta['p_index']))
+        #     f.write('\n')
+        #     f.write(title)
+        #     f.write('/')
+        #     f.write(p)
+        #     f.write('/')
+        #     f.write(str(response.meta['page']))
+        #     f.write('/')
+        #     f.write(str(self.a_page))
+        #     f.write('\n')
+        #     f.write(img_src)
+        #     f.write('\n')
+        #     f.write('\n')
+        #     f.write('\n')
+        #     f.write('\n')
+        #     f.close()
             
