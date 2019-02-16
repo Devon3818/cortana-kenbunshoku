@@ -11,6 +11,20 @@ class MhSpider(scrapy.Spider):
     a_href = ''
     a_page = ''
     a_title = ''
+
+    mh_name = ''
+    mh_dec = ''
+    mh_cover = ''
+    mh_year = ''
+    mh_area = ''
+    mh_type = []
+    mh_author = ''
+    mh_alias = '无'
+    mh_last = ''
+    mh_status = ''
+    mh_letter = ''
+    mh_update_time = ''
+
     id = 1
     pas = '-1'
 
@@ -25,6 +39,45 @@ class MhSpider(scrapy.Spider):
 
 
     def parse(self, response):
+
+        self.mh_name = response.css('.book-title h1::text').extract_first()
+        self.mh_dec = response.css('#intro-cut p::text').extract_first()
+        self.mh_cover = response.css('.book-cover .hcover img::attr(src)').extract_first()
+
+        lilist = response.css('.detail-list li')
+
+        for li in lilist:
+            spanlist = li.css('span')
+            for span_index in range(len(spanlist)):
+                span = spanlist[span_index]
+                if span_index == 1:
+                    self.mh_year = span.css('a::text').extract_first()
+                if span_index == 2:
+                    self.mh_area = span.css('a::text').extract_first()
+                if span_index == 3:
+                    self.mh_letter = span.css('a::text').extract_first()
+                if span_index == 4:
+                    if len(span.css('a')) > 1:
+                        alist = span.css('a::text')
+                        for a in alist:
+                            self.mh_type.append(a.get())
+                    else:
+                        self.mh_type.append(span.css('a::text').extract_first())
+                if span_index == 5:
+                    self.mh_author = span.css('a::text').extract_first()
+                if span_index == 6:
+                    if span.css('a::text'):
+                        self.mh_alias = span.css('a::text').extract_first()
+                if span_index == 7:
+                    self.mh_last = span.css('a::text').extract_first()
+                    t_span = span.css('span::text')
+                    for str_index in range(len(t_span)):
+                        if str_index == 1:
+                            self.mh_status = t_span[str_index].get()
+                        if str_index == 2:
+                            self.mh_update_time = t_span[str_index].get()
+                pass
+
         ul_list = response.css('.chapter-list ul')
         if len(ul_list) > 0 :
             for ul in ul_list:
