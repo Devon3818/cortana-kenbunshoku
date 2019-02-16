@@ -21,7 +21,7 @@ class CortanaPipeline(object):
         
     def process_item(self, item, spider):
 
-        if spider.name == 'sl':
+        if spider.name == '5q':
 			data = {
 				'mh_id': item['mh_id'],
 				'mh_index': item['mh_index'],
