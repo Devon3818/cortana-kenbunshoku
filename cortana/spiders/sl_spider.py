@@ -25,6 +25,8 @@ class MhSpider(scrapy.Spider):
     mh_letter = ''
     mh_update_time = ''
 
+    isg = True
+
     id = 1
     pas = '-1'
 
@@ -53,14 +55,17 @@ class MhSpider(scrapy.Spider):
                 for span_index in range(len(spanlist)):
                     span = spanlist[span_index]
                     if span_index == 0:
-                        self.mh_year = span.css('a::text').extract_first()
-                        print 'year:'+self.mh_year
+                        if span.css('a'):
+                            self.mh_year = span.css('a::text').extract_first()
+                            print 'year:'+self.mh_year
                     if span_index == 1:
-                        self.mh_area = span.css('a::text').extract_first()
-                        print 'area:'+self.mh_area
+                        if span.css('a'):
+                            self.mh_area = span.css('a::text').extract_first()
+                            print 'area:'+self.mh_area
                     if span_index == 2:
-                        self.mh_letter = span.css('a::text').extract_first()
-                        print 'letter:'+self.mh_letter
+                        if span.css('a'):
+                            self.mh_letter = span.css('a::text').extract_first()
+                            print 'letter:'+self.mh_letter
             if li_index == 1:
                 spanlist = lilist[li_index].css('span')
                 for span_index in range(len(spanlist)):
@@ -73,31 +78,37 @@ class MhSpider(scrapy.Spider):
                             self.mh_type.append(a_type)
                             print self.mh_type
                     if span_index == 1:
-                        self.mh_author = span.css('a::text').extract_first()
-                        print 'author:'+self.mh_author
+                        if span.css('a'):
+                            self.mh_author = span.css('a::text').extract_first()
+                            print 'author:'+self.mh_author
             if li_index == 2:
+                spanlist = lilist[li_index].css('span')
                 for span_index in range(len(spanlist)):
                     span = spanlist[span_index]
                     if span_index == 0:
                         al = span.css('a::text').extract_first()
-                        self.mh_alias.append( al )
-                        print 'alias:'+al
+                        if al:
+                            self.mh_alias.append( al )
+                            print 'alias:'+al
             if li_index == 3:
                 spanlist = lilist[li_index].css('span')
-                a_last = lilist[li_index].css('a::text').extract_first()
-                self.mh_last = a_last
-                print 'last:'+a_last
+                if lilist[li_index].css('a'):
+                    a_last = lilist[li_index].css('a::text').extract_first()
+                    self.mh_last = a_last
+                    print 'last:'+a_last
                 for span_index in range(len(spanlist)):
                     span = spanlist[span_index]
                     print len(spanlist)
                     if span_index == 1:
-                        st = span.css('span::text').extract_first()
-                        self.mh_status = st
-                        print 'status:'+st
+                        if span.css('span'):
+                            st = span.css('span::text').extract_first()
+                            self.mh_status = st
+                            print 'status:'+st
                     if span_index == 2:
-                        ut = span.css('span::text').extract_first()
-                        self.mh_update_time = ut
-                        print 'update_time:'+ut
+                        if span.css('span'):
+                            ut = span.css('span::text').extract_first()
+                            self.mh_update_time = ut
+                            print 'update_time:'+ut
 
         # get mh chip list data
         ul_list = response.css('.chapter-list ul')
@@ -136,5 +147,24 @@ class MhSpider(scrapy.Spider):
         item['mh_chip'] = response.meta['title']
         item['mh_page'] = response.meta['page']
         item['mh_src'] = response.css('#manga::attr(src)').extract_first()
+        
+        item['mh_name'] = self.mh_name
+        item['mh_dec'] = self.mh_dec
+        item['mh_cover'] = self.mh_cover
+        item['mh_year'] = self.mh_year
+        item['mh_area'] = self.mh_area
+        item['mh_type'] = self.mh_type
+        item['mh_author'] = self.mh_author
+        item['mh_alias'] = self.mh_alias
+        item['mh_last'] = self.mh_last
+        item['mh_status'] = self.mh_status
+        item['mh_letter'] = self.mh_letter
+        item['mh_update_time'] = self.mh_update_time
+
+        if self.isg:
+            self.isg = False
+            item['nodata'] = 1
+        else:
+            item['nodata'] = -1
         
         yield item

@@ -24,6 +24,7 @@ class CortanaItem(scrapy.Item):
     mh_dec = scrapy.Field()
     mh_chapter = scrapy.Field()
     mh_area = scrapy.Field()
+    nodata = scrapy.Field()
 
 
 
@@ -33,3 +34,17 @@ class ChipItem(scrapy.Item):
     mh_chip = scrapy.Field()
     mh_src = scrapy.Field()
     mh_page = scrapy.Field()
+
+    mh_name = scrapy.Field()
+    mh_dec = scrapy.Field()
+    mh_cover = scrapy.Field()
+    mh_year = scrapy.Field()
+    mh_area = scrapy.Field()
+    mh_type = scrapy.Field()
+    mh_author = scrapy.Field()
+    mh_alias = scrapy.Field()
+    mh_last = scrapy.Field()
+    mh_status = scrapy.Field()
+    mh_letter = scrapy.Field()
+    mh_update_time = scrapy.Field()
+    nodata = scrapy.Field()
