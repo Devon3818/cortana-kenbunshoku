@@ -19,7 +19,7 @@ class MhSpider(scrapy.Spider):
     mh_area = ''
     mh_type = []
     mh_author = ''
-    mh_alias = '无'
+    mh_alias = []
     mh_last = ''
     mh_status = ''
     mh_letter = ''
@@ -40,44 +40,66 @@ class MhSpider(scrapy.Spider):
 
     def parse(self, response):
 
+        # get mh info data
         self.mh_name = response.css('.book-title h1::text').extract_first()
         self.mh_dec = response.css('#intro-cut p::text').extract_first()
         self.mh_cover = response.css('.book-cover .hcover img::attr(src)').extract_first()
 
         lilist = response.css('.detail-list li')
 
-        for li in lilist:
-            spanlist = li.css('span')
-            for span_index in range(len(spanlist)):
-                span = spanlist[span_index]
-                if span_index == 1:
-                    self.mh_year = span.css('a::text').extract_first()
-                if span_index == 2:
-                    self.mh_area = span.css('a::text').extract_first()
-                if span_index == 3:
-                    self.mh_letter = span.css('a::text').extract_first()
-                if span_index == 4:
-                    if len(span.css('a')) > 1:
-                        alist = span.css('a::text')
-                        for a in alist:
-                            self.mh_type.append(a.get())
-                    else:
-                        self.mh_type.append(span.css('a::text').extract_first())
-                if span_index == 5:
-                    self.mh_author = span.css('a::text').extract_first()
-                if span_index == 6:
-                    if span.css('a::text'):
-                        self.mh_alias = span.css('a::text').extract_first()
-                if span_index == 7:
-                    self.mh_last = span.css('a::text').extract_first()
-                    t_span = span.css('span::text')
-                    for str_index in range(len(t_span)):
-                        if str_index == 1:
-                            self.mh_status = t_span[str_index].get()
-                        if str_index == 2:
-                            self.mh_update_time = t_span[str_index].get()
-                pass
+        for li_index in range(len(lilist)):
+            spanlist = lilist[li_index].css('span')
+            if li_index == 0:
+                for span_index in range(len(spanlist)):
+                    span = spanlist[span_index]
+                    if span_index == 0:
+                        self.mh_year = span.css('a::text').extract_first()
+                        print 'year:'+self.mh_year
+                    if span_index == 1:
+                        self.mh_area = span.css('a::text').extract_first()
+                        print 'area:'+self.mh_area
+                    if span_index == 2:
+                        self.mh_letter = span.css('a::text').extract_first()
+                        print 'letter:'+self.mh_letter
+            if li_index == 1:
+                spanlist = lilist[li_index].css('span')
+                for span_index in range(len(spanlist)):
+                    span = spanlist[span_index]
+                    if span_index == 0:
+                        a_list = span.css('a')
+                        for a in range(len(a_list)):
+                            a_type = a_list[a].css('a::text').extract_first()
+                            print a_type
+                            self.mh_type.append(a_type)
+                            print self.mh_type
+                    if span_index == 1:
+                        self.mh_author = span.css('a::text').extract_first()
+                        print 'author:'+self.mh_author
+            if li_index == 2:
+                for span_index in range(len(spanlist)):
+                    span = spanlist[span_index]
+                    if span_index == 0:
+                        al = span.css('a::text').extract_first()
+                        self.mh_alias.append( al )
+                        print 'alias:'+al
+            if li_index == 3:
+                spanlist = lilist[li_index].css('span')
+                a_last = lilist[li_index].css('a::text').extract_first()
+                self.mh_last = a_last
+                print 'last:'+a_last
+                for span_index in range(len(spanlist)):
+                    span = spanlist[span_index]
+                    print len(spanlist)
+                    if span_index == 1:
+                        st = span.css('span::text').extract_first()
+                        self.mh_status = st
+                        print 'status:'+st
+                    if span_index == 2:
+                        ut = span.css('span::text').extract_first()
+                        self.mh_update_time = ut
+                        print 'update_time:'+ut
 
+        # get mh chip list data
         ul_list = response.css('.chapter-list ul')
         if len(ul_list) > 0 :
             for ul in ul_list:

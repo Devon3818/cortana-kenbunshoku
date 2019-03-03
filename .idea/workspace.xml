@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba91d2e5-709a-4952-abae-8f217f77086c" name="Default Changelist" comment="" />
+    <list default="true" id="ba91d2e5-709a-4952-abae-8f217f77086c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cortana/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/cortana/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cortana/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/cortana/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cortana/spiders/sl_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/cortana/spiders/sl_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl.html" beforeDir="false" afterPath="$PROJECT_DIR$/sl.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,11 +17,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/begin.py">
+        <entry file="file://$PROJECT_DIR$/cortana/spiders/sl_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="-667">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cortana/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-459" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cortana/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-330" />
           </provider>
         </entry>
       </file>
@@ -33,7 +56,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="55" />
-    <option name="y" value="87" />
+    <option name="y" value="63" />
     <option name="width" value="1377" />
     <option name="height" value="837" />
   </component>
@@ -43,6 +66,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -50,11 +74,21 @@
               <item name="cortana-kenbunshoku" type="b2602c69:ProjectViewProjectNode" />
               <item name="cortana-kenbunshoku" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cortana-kenbunshoku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cortana-kenbunshoku" type="462c0819:PsiDirectoryNode" />
+              <item name="cortana" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cortana-kenbunshoku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cortana-kenbunshoku" type="462c0819:PsiDirectoryNode" />
+              <item name="cortana" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -86,17 +120,18 @@
       <updated>1549026673308</updated>
       <workItem from="1549026681769" duration="297000" />
       <workItem from="1549027328496" duration="838000" />
+      <workItem from="1550415031924" duration="79000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1135000" />
+    <option name="totallyTimeSpent" value="1214000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="87" width="1377" height="837" extended-state="0" />
+    <frame x="55" y="63" width="1377" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25692883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -109,8 +144,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4988764" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5011236" side_tool="true" visible="true" weight="0.32885906" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4988764" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50187266" side_tool="true" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49812734" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49962547" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -125,17 +160,34 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cortana/spiders/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cortana/spiders/main.py" />
     <entry file="file://$PROJECT_DIR$/begin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cortana/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cortana/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cortana/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cortana/spiders/sl_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-667">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
